@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MOBIO_TASK</string>
+    <string name="encrypte">Encrypte</string>
+    <string name="decrypte">Decrypte</string>
+    <string name="submit">Submit</string>
+    <string name="output">Result</string>
+    <string name="string">Enter String here..!!</string>
+</resources>

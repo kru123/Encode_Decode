@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context="com.calculator.user.mobio_task.Second_page">
+
+
+    <TextView
+        android:id="@+id/output_label"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="120dp"
+        android:textSize="50sp"
+        android:textColor="@color/red"
+        android:text="@string/output" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/blue"
+        android:textSize="25sp" />
+</LinearLayout>
